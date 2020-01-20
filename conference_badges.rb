@@ -8,6 +8,7 @@ def batch_badge_creator(attendees)
   badges = []
   attendees.each {|names| badges << badge_maker(names)}
   badges
+  binding.pry
 end
 
 def assign_rooms(attendees)
